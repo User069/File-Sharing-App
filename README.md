@@ -1,54 +1,73 @@
-SecureFileShare - A Secure File Sharing Platform
-SecureFileShare is an Expense Management web application that allows users to track and manage their expenses efficiently. It provides a user-friendly interface for secure storage, effortless file sharing, and collaborative document management. The application supports various features for expense tracking and categorization, ensuring a seamless user experience.
+# SecureFileShare - A Secure File Sharing Platform
 
-Features
-User Registration and Authentication: Users can create accounts and authenticate themselves to access the application securely.
-Expense Tracking: Users can add, view, edit, and delete expenses with details such as amount, date, category, and description.
-Expense Categories: Expenses can be categorized into different predefined categories for better organization.
-User Profile: Users can manage their profile information, change passwords, and update personal details.
-Technologies Used
-MongoDB: Database management system used to store and organize user data and files securely.
-Express.js: Backend web framework used to handle server-side operations and API development.
-React: Frontend library used to build an interactive and responsive user interface.
-Node.js: JavaScript runtime used to execute server-side code.
-Prerequisites
+SecureFileShare is a user-friendly platform that enables secure storage, effortless file sharing, and collaborative document management. It provides a robust and efficient file sharing experience while ensuring data security. The application is built using modern technologies, including MongoDB for database management, Express.js for backend development, React for building the interactive frontend, and Node.js for server-side operations.
+
+## Features
+
+- User Registration and Authentication: Users can create accounts and authenticate themselves to access the application securely.
+- File Upload and Storage: Users can upload and store their files on the platform securely.
+- Effortless File Sharing: Users can easily share files with other registered users or external parties.
+- Collaborative Document Management: Multiple users can collaborate on shared documents simultaneously.
+- Access Control: Different permission levels can be assigned to users for managing shared documents.
+
+## Technologies Used
+
+- MongoDB: Database management system used to store and organize user data and files securely.
+- Express.js: Backend web framework used to handle server-side operations and API development.
+- React: Frontend library used to build an interactive and responsive user interface.
+- Node.js: JavaScript runtime used to execute server-side code.
+
+## Prerequisites
+
 Before running the application, ensure that you have the following software installed:
 
-Node.js and npm (Node Package Manager)
-MongoDB Server
-A code editor (e.g., Visual Studio Code)
-Getting Started
-Clone the repository:
-bash
-Copy code
+- Node.js and npm (Node Package Manager)
+- MongoDB Server
+- A code editor (e.g., Visual Studio Code)
+
+## Getting Started
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/your-username/SecureFileShare.git
 cd SecureFileShare
-Install dependencies:
-bash
-Copy code
-npm install
-Configure environment variables:
+```
 
-Create a .env file in the root directory and add the necessary environment variables:
-dotenv
-Copy code
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Configure environment variables:
+
+   - Create a `.env` file in the root directory and add the necessary environment variables:
+
+```dotenv
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-Start the application:
-bash
-Copy code
+```
+
+4. Start the application:
+
+```bash
 npm start
-Access the application at http://localhost:3000/ in your web browser.
-Contributing
+```
+
+5. Access the application at `http://localhost:3000/` in your web browser.
+
+## Contributing
+
 Contributions to SecureFileShare are welcome! To contribute, follow these steps:
 
-Fork the repository.
-Create a new branch: git checkout -b my-new-feature.
-Make changes and commit them: git commit -m 'Add some feature'.
-Push to the branch: git push origin my-new-feature.
-Submit a pull request.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-new-feature`.
+3. Make changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin my-new-feature`.
+5. Submit a pull request.
 
+## License
 
-Acknowledgments
-This project was inspired by the Expense Management Web Application (Java-Expense_Tracker) and adapted to include file sharing and document management functionalities using modern web technologies. Special thanks to the creators of the Java-Expense_Tracker for their initial work.
+This project is licensed under the [MIT License](LICENSE).
